@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# ---- Virtual Environment ----
+.venv/
+venv/
+env/
+
+# ---- Environment Variables ----
+.env
+.env.*
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+# (optional) ignore notebooks completely
+# *.ipynb
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- Temporary / Generated Files ----
+temp.pdf
+*.pdf
+*.log
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- Build / Cache ----
+dist/
+build/
+*.egg-info/
+.cache/
+
+# ---- Misc ----
+*.lock
+uv.lock
+*.ipynb
