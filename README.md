@@ -1,30 +1,29 @@
-# RAG PDF Chatbot 🤖📄
+# RAG PDF Chatbot 🤖
 
-A Retrieval-Augmented Generation (RAG) chatbot built using LangChain that allows users to upload PDF documents and have intelligent, context-aware conversations about their content.
+Chat with your PDFs using AI (LangChain + Groq + FAISS)
+
+## 🔥 Demo
+(Add screenshot or gif here)
 
 ## 🚀 Features
-* **PDF Ingestion:** Parses and chunks text from uploaded PDF documents.
-* **Vector Embeddings:** Embeds document context for accurate similarity searches.
-* **LLM Integration:** Powered by Groq and OpenAI for lightning-fast inference and high-quality responses.
-* **Agentic AI Workflow:** Built with modular components designed for intelligent document retrieval.
+- Upload PDF and ask questions
+- Context-aware answers using RAG
+- Streaming responses
+- Source page extraction
 
-## 🛠️ Tech Stack
-* **Framework:** LangChain
-* **LLMs:** Groq API / OpenAI API
-* **Environment Management:** Python Virtual Environment (`.venv`)
+## 🧠 How it works
+1. PDF → text chunks
+2. Embeddings → FAISS vector DB
+3. Query → retrieve relevant chunks
+4. LLM generates answer
 
----
+## 🛠 Tech Stack
+- Python
+- LangChain
+- Streamlit
+- FAISS
+- Groq API
 
-## 💻 Getting Started
-
-### 1. Prerequisites
-Make sure you have Python installed on your system.
-
-### 2. Setup Virtual Environment
-Activate the virtual environment to ensure all dependencies are isolated:
-```powershell
-# On Windows PowerShell:
-.venv\Scripts\Activate.ps1
-
-# On Windows Command Prompt (CMD):
-.venv\Scripts\activate.bat
+## ▶️ Run locally
+pip install -r requirements.txt  
+streamlit run main.py
