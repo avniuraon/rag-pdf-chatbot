@@ -3,7 +3,8 @@
 Chat with your PDFs using AI (LangChain + Groq + FAISS)
 
 ## 🔥 Demo
-(Add screenshot or gif here)
+<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/e433b225-e2ca-461c-80e1-602c0870d4d3" />
+
 
 ## 🚀 Features
 - Upload PDF and ask questions
